@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 May 2018, 12:49:31 PM
+    Author     : Sino
+*/
+
+body{
+    background-color: silver;
+}
+#header{
+    padding: 20px;
+    background-color: rgb(7,27,44);
+    color:white;
+}
+#content{
+    background-color: white;
+    padding: 20px;
+}
+
+#footer{
+    padding: 20px;
+    background-color: rgb(7,27,44);
+    color: white;
+}
+a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30;
+    background-color: rgb(255,184,42);
+    padding: 0 1em 0 1em;
+}
+input[type='text']{
+   
+    width: 100%;
+}
+input[type='text']:focus{
+   width: 100%;
+   border: 2px solid rgb(255,184,42);
+}
+input[type='text']:hover{
+   
+    border: 2px solid rgb(255,184,42);
+}
+input[type='password']{
+   width: 100%;
+}
+input[type='submit']{
+   
+    background-color: rgb(7,27,44);
+    color:white;
+    border: 2px solid rgb(255,184,42);
+}
+table{
+    margin: auto;
+    width: 50%;
+    
+}
+table td{
+    padding: .5em;
+    
+}
+.output tr td{
+    border-bottom: 2px solid rgb(255,184,42);
+    
+}
+h1{
+    margin: 10 auto 10 auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(7,27,44);
+    width: 50%;
+}
+h3{
+    margin: 10 auto 10 auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(7,27,44);
+    width: 50%;
+}
+.user_link{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: small;
+    background-color: rgb(255,184,42);
+    padding: 0 .25em 0 .25em;
+}
+select{
+    width: 100%;
+    
+}
+select option{
+    text-align: center;
+}
