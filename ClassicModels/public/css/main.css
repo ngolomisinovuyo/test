@@ -1,0 +1,58 @@
+body 
+{
+  
+     font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.container .card .card-header 
+{
+     background-color: #103a5c;
+     color: white;
+     text-align: center;
+ }
+ 
+ .container-fluid .card .card-header 
+ {
+     background-color: #103a5c;
+     color: white;
+     /* text-align: center;*/
+ }
+ 
+ .card-footer 
+ {
+     background-color: #103a5c;
+     color: white;
+     text-align: center;
+ }
+ 
+ .card 
+ {
+    background-color: #fff;
+    border: none;
+ }
+ 
+ .card-body .row .col-md-5 label 
+ {
+     color: #103a5c;
+     width: 50%;
+     font-weight: bold;
+ }
+ 
+ .card-body .row .col-md-5 h4 
+ {
+     border-bottom: 3px solid #103a5c;
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ .card-body .row .col-md-5 .form-control 
+ {
+     margin-bottom: 1%;
+ }
+ 
+ .card-body .row .col-md-5 .btn 
+ {
+     background-color: rgb(7, 27, 44);
+     color: white;
+     margin-left: 85%;
+ }
+ 
